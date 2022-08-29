@@ -1,0 +1,14 @@
+/* nav styles */
+.nav{
+	padding: 2rem 0;
+}
+.nav_ _icon,
+.nav_ _close,
+.nav_ _bgoverlay{
+	display: none;
+
+}
+.nav_ _wrapper{
+	display: flex;
+	 justify-content: space-between; 
+}
