@@ -2,13 +2,13 @@
 .nav{
 	padding: 2rem 0;
 }
-.nav_ _icon,
-.nav_ _close,
-.nav_ _bgoverlay{
+.nav__icon,
+.nav__close,
+.nav__bgoverlay{
 	display: none;
 
 }
-.nav_ _wrapper{
+.nav__wrapper{
 	display: flex;
 	 justify-content: space-between; 
 }
