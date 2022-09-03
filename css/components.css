@@ -18,7 +18,7 @@
 }
 .nav__list .nav__link{
 	font-size: 1.8rem;
-	font-family: 'poppings';
+	font-family: 'poppins';
 	color: var(--black-2);
 	padding: o.5rem;
 }
@@ -71,7 +71,7 @@
 /* Global Button styles */
 .btn{
 	color: var(--green-1);
-	font-family: poppings;
+	font-family: poppins;
 	font-weight: 500;
 	border-radius: 8px;
 	font-size: 1.4rem;
@@ -82,7 +82,7 @@
 	background: var(--green-1);
 }
 
-@media only screen and(min-wight: 768px) {
+@media  only screen and(min-width: 768px) {
 	.btn{
 		padding: 1.3rem 2rem;
 		font-size: 2rem;
