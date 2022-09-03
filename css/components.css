@@ -20,13 +20,13 @@
 	font-size: 1.8rem;
 	font-family: 'poppins';
 	color: var(--black-2);
-	padding: o.5rem;
+	padding: 0.5rem;
 }
 .nav__list li:hover .nav__link{
 	color: var(--green-1);
 }
 
-@media only screen and(max-width: 768px) {
+@media only screen and (max-width: 768px) {
    .nav{
 	position: relative;
    }
@@ -63,7 +63,7 @@
 	overflow: hidden;
 	transition: 0.3s ease-in transform;
    }
-   .nav__list .show{
+   .nav__list.show{
 	transform: translateX(0%);
    }
 }
@@ -71,7 +71,7 @@
 /* Global Button styles */
 .btn{
 	color: var(--green-1);
-	font-family: poppins;
+	font-family: 'poppins';
 	font-weight: 500;
 	border-radius: 8px;
 	font-size: 1.4rem;
