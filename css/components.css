@@ -103,7 +103,7 @@
 	background: var(--green-1);
 }
 
-@media  only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	.btn{
 		padding: 1.3rem 2rem;
 		font-size: 2rem;
@@ -164,7 +164,7 @@ footer{
 	line-height: 1.4em;
 
 }
-@media  only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 	footer{
 		padding-top: 8rem;
 		padding-bottom: 4rem;
@@ -206,7 +206,7 @@ footer{
 	font-size: 1.4rem;
 	text-align: center;
 }
-@media  only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.copyright__text{
 		font-size: 1.6rem;
 		text-align: left;
@@ -244,7 +244,7 @@ footer{
 	font-family: Raleway;
 	color: var(--black-2);
 }
-@media  only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.storeInfo__wrapper{
 		gap: 2rem;
 	}
@@ -311,7 +311,7 @@ footer{
 	max-height: 15px;
 	width: max-content;
 }
-@media  only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 	.dishGrid__title{
 		font-size: 2.4rem;
 	}
