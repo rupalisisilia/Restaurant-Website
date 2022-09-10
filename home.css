@@ -409,6 +409,36 @@
 	font-size: 1.4rem;
 }
 .whyUs__items__wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+.whyUs__item{
+	background: var(--lightgreen-1);
+	padding: 2rem;
+	border-radius: 12px;
+	text-align: center;
+}
+.whyUs__item__icon{
+	max-width: 56px;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+.whyUs__item__text{
+	font-family: poppins;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: var(--black-1);
+}
+@media only screen and (min-width: 768px){
+	.whyUs__wrapper{
+		flex-direction: row;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	.whyUs__left{
+		flex: 4;
+		text-align: left;
 	}
 	.whyUs__right{
 		flex: 3;
