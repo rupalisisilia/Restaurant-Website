@@ -553,5 +553,40 @@
 	}
 	
 }
+/* newsletter section styles */
+.newsletter__wrapper{
+	display: flex;
+	flex-direction: column;
+	background-color: var(--green-2);
+	padding: 1.5rem;
+	border-radius: 8px;
+	gap: 2rem;
+}
+.newsletter__title{
+	font-size: 1.8rem;
+	color: var(--black-1);
+	font-weight: 600;
+	margin-bottom: 1.3rem;
+}
+.newsletter__text{
+	font-size: 1.4rem;
+	color: var(--black-2);
+	font-weight: 500;
+}
+.newsletter__form form{
+	position: relative;
+	width: 100%;
+	border-radius: 8rem;
+	overflow: hidden;
+}
+.newsletter__form label{
+	width: 100%;
+}
+.newsletter__form input{
+	width: 100%;
+	font-size: 1.4rem;
+	padding: 1.5rem 1rem;
+	border: none;
+}
 
    
