@@ -1,0 +1,12 @@
+/* our Story section styles */
+.ourStory__wrapper{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.ourStory__title{
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: var(--black-1);
+	margin-bottom: 1rem;
+}
