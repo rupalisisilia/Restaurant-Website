@@ -45,7 +45,38 @@
 		</div>
 	</div>
 	<!-- end nav section -->
-	<h1>This is Booking page</h1>
+	<!--booking section-->
+	<section id="form">
+		<div class="container">
+			<h3 class="form__title">Book Table</h3>
+			<div class="form__wrapper">
+				<form>
+					<div class="form__group">
+						<label for="firstName">First Name</label>
+						<input type="text" id="firstName" name="first_name" required>
+					</div>
+					<div class="form__group">
+						<label for="last">Last Name</label>
+						<input type="text" id="lastname" name="last_name" required>
+					</div>
+					<div class="form__group">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required>
+					</div>
+					<div class="form__group">
+						<label for="tableType">Table Type</label>
+						<select name="table_type" id="tableType">
+						<option selected disabled>Choose</option>
+						<option value="small">Small (2 persons)</option>
+						<option value="medium">Medium (4 persons)</option>
+						<option value="large">Large (6 persons)</option>
+						</select>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!--end booking section-->
 
 	<!--footer-->
 	<footer>
