@@ -87,7 +87,7 @@
 	</section>
 	<!--end storeInfo section-->
 	<!--contact Form section-->
-	<section id="form">
+	<section id="form" data-aos="fade-down">
 		<div class="container">
 			<h3 class="form__title">Contact & Inquiry</h3>
 			<div class="form__wrapper">
@@ -97,17 +97,22 @@
 						<input type="text" id="firstName" name="first_name" required>
 					</div>
 					<div class="form__group">
-						<label for="email">Last Name</label>
+						<label for="last">Last Name</label>
 						<input type="text" id="lastname" name="last_name" required>
 					</div>
 					<div class="form__group">
-						<label for="email">Last Name</label>
-						<input type="text" id="lastname" name="last_name" required>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required>
 					</div>
 					<div class="form__group">
-						<label for="email">Last Name</label>
-						<input type="text" id="lastname" name="last_name" required>
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" required>
 					</div>
+					<div class="form__group form__group__full">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" cols="30" rows="10" required></textarea>
+					</div>
+					<button type="submit" class="btn primary-btn">Send</button>
 				</form>
 			</div>
 		</div>
